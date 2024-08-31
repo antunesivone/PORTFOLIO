@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Portfolio</title>
 </head>
+
 <body>
 
     <i class="bi bi-list menu-mobile"></i>
 
     <aside id='header'>
+
         <section class="profile">
             <img src="../static/img/perfil.jpeg" alt="foto perfil">
             <h1>Ivone Antunes</h1>
@@ -32,16 +34,17 @@
                 </a>
             </div>
         </section>
+
         <nav id='navbar' class="nav-menu">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Inicio</a>
+                     <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"></i>Inicio</a>
                 </li>
                 <li class="nav-item">
-                     <a class="nav-link" href="#"><i class="bi bi-person"></i></i>Sobre</a>
+                     <a class="nav-link" href="#sobre"><i class="bi bi-person"></i></i>Sobre</a>
                 </li>
                 <li class="nav-item">
-                     <a class="nav-link" href="#"><i class="bi bi-list-check"></i>Habilidades</a>
+                     <a class="nav-link" href="#habilidades"><i class="bi bi-list-check"></i>Habilidades</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="bi bi-file-earmark"></i>Currículo</a>
@@ -54,22 +57,171 @@
                 </li>
               </ul>
         </nav>
+
     </aside>
     <main id="main">
         <section id="inicio" class="row m-0 p-0">
             <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
                 <h2 class="text-white text-shadowx">Ivone Antunes</h2>
-                <span id="subtitle" class="text-white text-shadowx"> Eterna Estudante, Engenharia da Computação, Desenvolvedora de Conteúdo digital e Networking.</span>
+                <span id="subtitle" class="text-white text-shadowx"> Eterna Estudante<br> Engenharia da Computação <br> Desenvolvedora de Conteúdo digital <br> Networking.</span>
             </div>
             <div class="col-md-7 d-flex justify-content-end align-items-end ">
                 <div id="arraste" class="d-flex align-items-center">
                     <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-                    <a href="">Arraste para mais</a>
+                    <a href="#sobre">Arraste para mais</a>
                 </div>
             </div>
-              
         </section>
-        
+
+        <section class="container col m-5" id='sobre'>   
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2 class='pt-5'>Sobre</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium suscipit, magni ab iste magnam ipsum ipsam inventore optio debitis a repellat id eos impedit labore maiores nam eaque ut obcaecati?</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid shadow" src="./static/img/perfil.jpeg" alt="img perfil">
+                </div>
+                <div class="col-md-8">
+                    <h3>Profissional Ivone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia itaque voluptatum praesentium nisi, consequatur, iusto voluptatem amet modi quae earum sed alias ullam suscipit excepturi vel adipisci quis sunt aperiam.</p>
+                        <div class="row mt-3 mb-3">
+                            <div class="col-md-6">
+                                <ul class="list-group list-group-flush fs-5">
+                                    <li class="list-group-item">Cidade: <span class="fw-lighter">Piracicaba-SP</span></li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                    <li class="list-group-item">A fourth item</li>
+                                  </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-group list-group-flush fs-5">
+                                    <li class="list-group-item">Hobby: <span class="fw-lighter">Filosofia da Vida</span></li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                    <li class="list-group-item">A fourth item</li>
+                                  </ul>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque minus fugit sed inventore ipsa nemo facere deleniti natus fuga consequatur quidem, similique ullam perferendis corrupti beatae, ratione laboriosam? Maxime, iure?</p>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="mt-5 section-bg" id="habilidades">
+
+            <div class="container col m-5">
+                <h2 class='pt-5'>Habilidades</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aperiam quaerat dignissimos nostrum eius eveniet repellendus nesciunt, non necessitatibus quas inventore perspiciatis distinctio modi enim nobis neque, quibusdam qui assumenda.</p>
+            
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class='mt-3 mb-0'>HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>CSS</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>JavaScript</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%">85%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Python</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 65%">65%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Git</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 65%">65%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class='mt-3 mb-0'>HTML</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>CSS</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>JavaScript</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%">85%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Python</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 65%">65%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Git</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 65%">65%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class='w-75 me-auto ms-auto'>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class='mt-3 mb-0'>Trabalho em Equipe</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Comunicação</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Inteligência Emocional</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Resiliência</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class='mt-3 mb-0'>Trabalho em Equipe</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Comunicação</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Inteligência Emocional</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+
+                        <p class='mt-3 mb-0'>Resiliência</p>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+
     </main>
 
     <script src="../static/bootstrap/script.js/bootstrap.bundle.min.js"></script>
